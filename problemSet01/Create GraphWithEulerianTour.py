@@ -15,7 +15,7 @@ def create_tour(nodes):
             if(i==j):continue
             result.append((nodes[i],nodes[j]))
     return result
-#########
+##########
 
 def get_degree(tour):
     degree = {}
